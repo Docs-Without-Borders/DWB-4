@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# DWB - Documents Without Borders - 2027
+Sitemap: https://documentswithoutborders.com/sitemap.xml
+
+# For AI crawlers - GEO/AIO/AISO
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /

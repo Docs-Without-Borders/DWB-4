@@ -1,0 +1,111 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://documentswithoutborders.com/#organization",
+      "name": "Documents Without Borders",
+      "alternateName": "DWB",
+      "url": "https://documentswithoutborders.com",
+      "logo": "https://documentswithoutborders.com/logo.png",
+      "slogan": "Connecting Notaries Globally",
+      "foundingDate": "2027",
+      "founder": {
+        "@type": "Person",
+        "name": "Oswald Joseph Bien-Aim\u00e9",
+        "jobTitle": "CEO",
+        "sameAs": "https://thenotarygiant.com"
+      },
+      "description": "Global network connecting 5000+ notaries in 200+ countries for business networking, referrals, and worldwide notary services.",
+      "sameAs": [
+        "https://www.instagram.com/thenotarygiant"
+      ]
+    },
+    {
+      "@type": "Event",
+      "name": "DWB Awards 2027 - Annual Awards Ceremony",
+      "description": "Annual awards ceremony celebrating excellence - honoring notaries worldwide at our annual gala",
+      "startDate": "2027-11-14T18:00:00+01:00",
+      "endDate": "2027-11-14T23:00:00+01:00",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "location": {
+        "@type": "Place",
+        "name": "Grand Ballroom, Geneva",
+        "address": "Geneva, Switzerland"
+      },
+      "image": "https://documentswithoutborders.com/awards/trophy.jpg",
+      "organizer": {
+        "@id": "https://documentswithoutborders.com/#organization"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "https://documentswithoutborders.com/awards",
+        "availability": "https://schema.org/InStock",
+        "price": "250",
+        "priceCurrency": "CHF"
+      }
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Global Notary Business Networking",
+      "name": "DWB Global Business Networking Community - 2027",
+      "provider": {
+        "@id": "https://documentswithoutborders.com/#organization"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Worldwide"
+      },
+      "description": "Join Our Global Business Networking Community - 2027 - Connect with Notaries Worldwide - Find Referrals, Share Business, Grow Together",
+      "category": "Class 35"
+    },
+    {
+      "@type": "Service",
+      "serviceType": "Notary Directory",
+      "name": "Find a Notary Anywhere in the World - 2027 Global Directory",
+      "provider": {
+        "@id": "https://documentswithoutborders.com/#organization"
+      },
+      "description": "Global Notary Directory - Mobile Notary, Apostille Services, Remote Online Notary (RON), Loan Signing - Serving 100+ Countries in 2027",
+      "category": "Class 45"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Documents Without Borders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Documents Without Borders (DWB) is a global network connecting 5000+ notaries in 200+ countries for business networking, referrals, and worldwide notary services including mobile notary, apostille, and RON."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is DWB Awards 2027?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DWB Awards 2027 Annual Awards Ceremony is November 14, 2027 at 6PM at Grand Ballroom Geneva, honoring notaries worldwide at our annual gala. Tickets available at documentswithoutborders.com/awards"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to find a notary anywhere in the world?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the DWB 2027 Global Directory at documentswithoutborders.com/directory to search 1200+ licensed and verified notaries in 100+ countries for mobile notary, apostille, RON, and loan signing services with 24/7 availability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How to join DWB global notary networking community?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Join DWB Business Networking Community at documentswithoutborders.com/networking. Connect with 5000+ notaries in 200+ countries for referrals, business sharing, and growth in 2027."
+          }
+        }
+      ]
+    }
+  ]
+}
