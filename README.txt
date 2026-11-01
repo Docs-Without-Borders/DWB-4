@@ -1,22 +1,14 @@
-DWB-4 STAGING BUILD - Test before main deploy
+DWB-4 FINAL LANGUAGE FIX - Staging
 
-This is the staging version for dwb-4.vercel.app
+Fixes:
+- Top bar says "Language" first, subtext English (US) - Default
+- Inside menu header says Language, then list: Kreyol first, Arabic second, English variants (UK, Canada, Australia, NZ, Ireland, South Africa, Jamaica, International) - US English removed because site is already US English
+- Note: Site written in US English is default
 
-STEPS TO UPDATE DWB-4 ON VERCEL (Windows):
-1. Unzip this folder
-2. Go to vercel.com, open your dwb-4 project
-3. Drag and drop the unzipped folder via Vercel dashboard or use Vercel CLI: vercel --prod
-4. Wait for deployment, visit https://dwb-4.vercel.app
-5. Check the gold staging banner and complete the 3-item checklist:
-   - Founder photo loads
-   - AR button works on phone (View in Your Room)
-   - FAQ accordion opens
-6. When all green, tell me and I will flip canonical to www.documentswithoutborders.org and package the MAIN deploy zip
+Features:
+- Interactive globe: click dot -> H green Hague simplified path, NH blue Non-Hague expanded path
+- Accessibility: Skip link, High Contrast toggle, Font A-/A+, keyboard fallback list for globe, ARIA labels
+- AR viewer: assets/dwb_globe.glb
+- Founder photo: assets/founder-oswald.jpg
 
-What's inside:
-- index.html = staging site with noindex (so Google doesn't index staging)
-- assets/founder-oswald.jpg
-- assets/dwb_globe.glb (Green=Hague, Blue=Non-Hague)
-- robots.txt, sitemap.xml, vercel.json
-
-Main site deploy will be same content but with canonical back to documentswithoutborders.org and index,follow robots.
+Deploy to dwb-4.vercel.app, test, then say deploy to main and I will flip canonical to documentswithoutborders.org and switch robots to index.
