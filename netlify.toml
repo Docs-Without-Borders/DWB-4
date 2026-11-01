@@ -1,18 +1,2 @@
 [build]
   publish = "."
-  command = ""
-
-[[redirects]]
-  from = "/networking"
-  to = "/#networking"
-  status = 200
-
-[[redirects]]
-  from = "/awards"
-  to = "/#awards"
-  status = 200
-
-[[redirects]]
-  from = "/directory"
-  to = "/#directory"
-  status = 200
